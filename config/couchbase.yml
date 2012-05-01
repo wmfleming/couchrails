@@ -7,11 +7,7 @@ common: &common
 
 development:
   <<: *common
-  bucket: rails_on_couchbase_development
-
-test:
-  <<: *common
-  bucket: rails_on_couchbase_test
+  bucket: couchrail-dev
 
 # set these environment variables on your production server
 production:
