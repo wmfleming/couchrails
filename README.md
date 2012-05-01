@@ -23,10 +23,10 @@ The important thing here is to avoid loading ActiveRecord. One way to do this is
 
 Alternatively, if you've already created your app (or just want to know what this actually does), have a look at config/application.rb and change the first lines from this:
 
-<pre><code>require "rails/all"
+<pre><code>require "rails/all"</code></pre>
 to this:
 
-require "action_controller/railtie"
+<pre><code>require "action_controller/railtie"
 require "action_mailer/railtie"
 require "active_resource/railtie"
 require "rails/test_unit/railtie"</code></pre>
