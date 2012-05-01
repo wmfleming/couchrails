@@ -7,7 +7,11 @@ common: &common
 
 development:
   <<: *common
-  bucket: couchrail-dev
+  bucket: couchrails_dev
+
+test:
+  <<: *common
+  bucket: couchrails_test
 
 # set these environment variables on your production server
 production:

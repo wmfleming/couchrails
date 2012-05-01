@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-RailsOnCouchbase::Application.config.secret_token = '082fa93421e70f6a26c664be954029e0b1fed025e0323158819d2e2a1963c154b8e356ace8a548ec16b6c7e3c68160b94ce8756068ba252ab6efd05e8ce7e38a'
+Couchrails::Application.config.secret_token = '060f97a41ab01e1a0e597ce9726792a6b363621e17e80e8b4254c6478c6c43659bb7f35d36f50b033eb98588478c3638db2faa29063422983d607a46315ecaf9'

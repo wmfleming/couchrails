@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-RailsOnCouchbase::Application.load_tasks
+Couchrails::Application.load_tasks
